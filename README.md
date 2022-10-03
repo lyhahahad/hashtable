@@ -18,6 +18,9 @@
     opan address : 비어 있는 버킷에 데이터를 저장<BR>
     seperate chaining : 동일한 버킷에서 추가 메모리 사용<BR>
 
+3. 이미 존재하는 key값이 들어온다면?<br>
+    key는 중복이 안된다.
+
 구현 방식<BR>
 1. division method + open address or seperate chaining
 2. digit folding + open address or seperate chaining
